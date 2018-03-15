@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5ADCBAC820589C3900036716 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADCBAC720589C3900036716 /* main.swift */; };
+		5ADCBACF20589C9400036716 /* TTTBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADCBACE20589C9400036716 /* TTTBoard.swift */; };
+		5ADCBAD120589CA100036716 /* TTTSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADCBAD020589CA100036716 /* TTTSquare.swift */; };
+		5ADCBAD3205A19DD00036716 /* TTTGameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADCBAD2205A19DD00036716 /* TTTGameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		5ADCBAC420589C3900036716 /* TicTacToeText */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TicTacToeText; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADCBAC720589C3900036716 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5ADCBACE20589C9400036716 /* TTTBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTBoard.swift; sourceTree = "<group>"; };
+		5ADCBAD020589CA100036716 /* TTTSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTSquare.swift; sourceTree = "<group>"; };
+		5ADCBAD2205A19DD00036716 /* TTTGameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTGameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				5ADCBAC720589C3900036716 /* main.swift */,
+				5ADCBACE20589C9400036716 /* TTTBoard.swift */,
+				5ADCBAD020589CA100036716 /* TTTSquare.swift */,
+				5ADCBAD2205A19DD00036716 /* TTTGameState.swift */,
 			);
 			path = TicTacToeText;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADCBAD3205A19DD00036716 /* TTTGameState.swift in Sources */,
 				5ADCBAC820589C3900036716 /* main.swift in Sources */,
+				5ADCBACF20589C9400036716 /* TTTBoard.swift in Sources */,
+				5ADCBAD120589CA100036716 /* TTTSquare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
